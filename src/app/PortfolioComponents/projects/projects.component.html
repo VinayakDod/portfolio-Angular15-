@@ -1,0 +1,252 @@
+<section class="portfolio-section sec-padding" *ngIf="mainScreen">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 style="margin-right: 400px;">Recent Works</h2>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="" alt="1">
+
+                </div>
+                <h3 class="portfolio-item-title">education course website</h3>
+                <button class="btn view-project-btn" (click)="togglepopup('1')">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                            explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created -<span>08-09-2021</span></li>
+                            <li>Technology -<span>MVC</span></li>
+                            <li>Role -<span>Frontend </span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="" alt="1">
+
+                </div>
+                <h3 class="portfolio-item-title">personal Portfolio website</h3>
+                <button class="btn view-project-btn" (click)="togglepopup('2')">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                            explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created -<span>08-09-2022</span></li>
+                            <li>Technology -<span>Angular 15</span></li>
+                            <li>Role -<span>Frontend</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="" alt="1">
+
+                </div>
+                <h3 class="portfolio-item-title">personal Portfolio website</h3>
+                <button class="btn view-project-btn" (click)="togglepopup('3')">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                            explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created -<span>08-09-2022</span></li>
+                            <li>Technology -<span>Angular 15</span></li>
+                            <li>Role -<span>Frontend</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <DIV class="row">
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="" alt="1">
+
+                </div>
+                <h3 class="portfolio-item-title">personal Portfolio website</h3>
+                <button class="btn view-project-btn" (click)="togglepopup('1')">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                            explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created -<span>08-09-2022</span></li>
+                            <li>Technology -<span>Angular 15</span></li>
+                            <li>Role -<span>Frontend</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="" alt="1">
+
+                </div>
+                <h3 class="portfolio-item-title">personal Portfolio website</h3>
+                <button class="btn view-project-btn">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                            explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created -<span>08-09-2022</span></li>
+                            <li>Technology -<span>Angular 15</span></li>
+                            <li>Role -<span>Frontend</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="" alt="1">
+
+                </div>
+                <h3 class="portfolio-item-title">personal Portfolio website</h3>
+                <button class="btn view-project-btn">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                            explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created -<span>08-09-2022</span></li>
+                            <li>Technology -<span>Angular 15</span></li>
+                            <li>Role -<span>Frontend</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </DIV>
+    </div>
+</section>
+
+<div class="portfolio-popup" *ngIf="Prj1Clicked">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close" (click)="popupclose()"><i class="fas fa-times"></i></button>
+
+                <div class="pp-thumbnail">
+                    <img src="../../../assets/[removal.ai]_04cb85db-7b3a-4feb-a1ef-232ed4c893d6-whatsapp-image-2024-03-20-at-7-57-38-pm-1.png"
+                        alt="">
+                </div>
+                <h3>landing page</h3>
+            </div>
+            <div class="pp-body">
+                <div class="description">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                        explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                    </p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created -<span>08-09-2021</span></li>
+                        <li>Technology -<span>MVC</span></li>
+                        <li>Role -<span>Frontend </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="portfolio-popup" *ngIf="Prj2Clicked">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close" (click)="popupclose()"><i class="fas fa-times"></i></button>
+
+                <div class="pp-thumbnail">
+                    <img src="../../../assets/[removal.ai]_04cb85db-7b3a-4feb-a1ef-232ed4c893d6-whatsapp-image-2024-03-20-at-7-57-38-pm-1.png"
+                        alt="">
+                </div>
+                <h3>landing 2 page</h3>
+            </div>
+            <div class="pp-body">
+                <div class="description">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                        explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                    </p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created -<span>08-09-2021</span></li>
+                        <li>Technology -<span>MVC</span></li>
+                        <li>Role -<span>Frontend </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="portfolio-popup" *ngIf="Prj3Clicked">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close" (click)="popupclose()"><i class="fas fa-times"></i></button>
+
+                <div class="pp-thumbnail">
+                    <img src="../../../assets/[removal.ai]_04cb85db-7b3a-4feb-a1ef-232ed4c893d6-whatsapp-image-2024-03-20-at-7-57-38-pm-1.png"
+                        alt="">
+                </div>
+                <h3>landing 3 page</h3>
+            </div>
+            <div class="pp-body">
+                <div class="description">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident asperiores omnis
+                        explicabo impedit earum praesentium nostrum cum maxime laboriosam!
+                    </p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created -<span>08-09-2024</span></li>
+                        <li>Technology -<span>MVC</span></li>
+                        <li>Role -<span>Frontend </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

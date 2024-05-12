@@ -1,0 +1,82 @@
+<section class="about-section sec-padding">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>About me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-img">
+                <div class="img-box">
+                    <img src="../../../assets/[removal.ai]_04cb85db-7b3a-4feb-a1ef-232ed4c893d6-whatsapp-image-2024-03-20-at-7-57-38-pm-1.png"
+                        alt="dsd">
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I am a dedicated and experienced technical associate with 2.7 years of hands-on expertise in Angular
+                    and .NET MVC development. My role has involved designing, implementing, and maintaining robust web
+                    applications, ensuring high performance and user satisfaction.</p>
+                <h3>
+                    Skills
+                </h3>
+                <div class="skills">
+                    <div class="skill-item">Angular15</div>
+                    <div class="skill-item">.NET Api's</div>
+                    <div class="skill-item">.NET MVC</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">ChatGPT</div>
+                    <div class="skill-item">BlackBox </div>
+                </div>
+                <div class="about-tabs">
+                    <button type="button" class="tab-item " [class.active]="selectedTab === 'education'"
+                        (click)="showTab('education')">Education</button>
+                    <button type="button" class="tab-item " [class.active]="selectedTab === 'experience'"
+                        (click)="showTab('experience')">Experience</button>
+                </div>
+                <div *ngIf="selectedTab === 'education'" class="tab-content"
+                    [class.active]="selectedTab === 'education'" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">
+                                2013-2016
+                            </span>
+                            <h4>Diploma Engg -
+                                <span>GOVT Polytechnic</span>
+                            </h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quo suscipit quaerat
+                                minus, blanditiis architecto facere temporibus fugiat ipsa unde porro molestiae saepe
+                                distinctio commodi, culpa eos ducimus? Qui, facilis?</p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">
+                                2017-2021
+                            </span>
+                            <h4>Bacholer of Engg -
+                                <span>Jain College of Engg</span>
+                            </h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quo suscipit quaerat
+                                minus, blanditiis architecto facere temporibus fugiat ipsa unde porro molestiae saepe
+                                distinctio commodi, culpa eos ducimus? Qui, facilis?</p>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="selectedTab === 'experience'" class="tab-content"
+                    [class.active]="selectedTab === 'experience'" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">(July-2019)-(Aug-2019)</span>
+                            <h4>IOT & Embedded Systems - K-tech innovation Hub Powered by IKP.</h4>
+                            <p>lorem 30</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" routerLink="/contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+</section>

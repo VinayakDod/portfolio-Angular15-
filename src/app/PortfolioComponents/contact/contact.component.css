@@ -1,0 +1,12 @@
+.contact-container {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Space items evenly */
+    flex-wrap: wrap; /* Wrap items if they exceed the container's width */
+  }
+  
+  .contact-form,
+  .contact-info {
+    width: calc(50% - 15px); /* Set width for each section */
+    padding: 0 15px; /* Add padding to each section */
+  }
+

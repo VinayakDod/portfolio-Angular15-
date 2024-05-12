@@ -1,0 +1,50 @@
+<div class="main">
+
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler" (click)="NavClick()">
+                    <span><i class="fa-solid fa-bars fa-flip-both" style="color: #e92b90;"></i></span>
+                </button>
+                <nav class="nav" *ngIf="NavExpand">
+                    <div class="nav-inner">
+                          <ul>
+                            <li><a href=""  routerLink="/" class="nav-item">Home</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="" routerLink="/about" class="nav-item">About</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="" routerLink="/projects" class="nav-item">Portfolio</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="" routerLink="/contact" class="nav-item">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="home-section align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello I'm</p>
+                    <h1>Vinayak B Dodakundi</h1>
+                    <h2>Web-App Developer</h2>
+                    <a href="#" routerLink="/about" class="btn">More about Me</a>
+                    <a href="#" routerLink="/projects" class="btn">Portfolio</a>
+                </div>
+                <div class="home-image">
+                    <div class="img-box">
+                        <img src="https://i.pinimg.com/originals/a2/95/0f/a2950faa53be5e2872037f1027fdfbe3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
